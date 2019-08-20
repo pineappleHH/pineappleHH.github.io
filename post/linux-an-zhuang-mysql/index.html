@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
+<title>Linux 安装 MySQL | Gridea</title>
 <meta name="description" content="我家还蛮大的:china:" />
 <link rel="shortcut icon" href="https://pineapplehh.github.io/favicon.ico?v=1566286091092">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -70,32 +70,53 @@
   </div>
 </div>
 
-    
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Linux 安装 MySQL
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-08-20
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="安装mysql">安装MySQL</h2>
+<pre><code>安装：
+	yum install mariadb-server
+启动：
+	systemctl start mariadb
+设置root密码：
+	mysqladmin -u root password '123456'
+使用root登录：
+	mysql -uroot -p123456
+</code></pre>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%AE%89%E8%A3%85mysql">安装MySQL</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
         
 
-<div class="archives-container">
-  
-    <h2 class="year">2019</h2>
-    
-      
-        <a href="https://pineapplehh.github.io/post/linux-an-zhuang-mysql" class="post">
-          <h2 class="post-title">
-            Linux 安装 MySQL
-          </h2>
-          <div class="time">2019-08-20</div>
-        </a>
-      
-    
-  
-</div>
+        
 
-    
-        <div class="pagination-container">
-  
-  
-</div>
-
-    
         <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
   <a class="rss" href="https://pineapplehh.github.io/atom.xml" target="_blank">RSS</a>
