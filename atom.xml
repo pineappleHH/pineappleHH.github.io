@@ -2,14 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pineapplehh.github.io</id>
     <title>Gridea</title>
-    <updated>2019-08-20T07:50:37.092Z</updated>
+    <updated>2020-01-13T09:37:18.660Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pineapplehh.github.io"/>
     <link rel="self" href="https://pineapplehh.github.io/atom.xml"/>
     <subtitle>我家还蛮大的:china:</subtitle>
     <logo>https://pineapplehh.github.io/images/avatar.png</logo>
     <icon>https://pineapplehh.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea</rights>
+    <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Arrays常用的方法]]></title>
+        <id>https://pineapplehh.github.io/post/arrays-chang-yong-de-fang-fa1</id>
+        <link href="https://pineapplehh.github.io/post/arrays-chang-yong-de-fang-fa1">
+        </link>
+        <updated>2020-01-13T09:13:23.000Z</updated>
+        <content type="html"><![CDATA[<p>int [] a=Arrays.toString   输出数组<br>
+Arrays.sort       对数组进行排序(没有返回值)<br>
+Arrays.sort(int [] a ,int b,int c)       对指定的数组进行排序（包括b，不包括c）<br>
+int c = Arrays.binarySearch(int[] a,int b)    在数组中查找指定的数字（b）的位置<br>
+int [] d=Arrays.copyOfRange(int[] a,int b,int c)   对指定的数组进行复制（包括b，不包括c）</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 安装 MySQL]]></title>
         <id>https://pineapplehh.github.io/post/linux-an-zhuang-mysql</id>
